@@ -1,0 +1,19 @@
+.search-page{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    padding:2rem;
+}
+.search-page>input{
+    padding:1rem;
+    border-radius:0.2rem;
+    box-shadow:1px 2px 2px lightGray;
+    border:1px solid lightGray;
+    width:70%;
+    /* margin:2rem 0; */
+
+}
+.search-page>input:focus{
+    outline: none;
+
+}

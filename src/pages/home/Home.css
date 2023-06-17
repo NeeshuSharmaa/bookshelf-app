@@ -1,0 +1,21 @@
+.home-page{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    padding:2rem;
+
+}
+
+
+
+
+.reading,.read, .tbr{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+.reading>h2, .read>h2, .tbr>h2{
+    padding-bottom:0.5rem;
+   border-bottom: 1px solid lightgray;
+   width:70%;
+}

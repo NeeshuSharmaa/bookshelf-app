@@ -1,13 +1,17 @@
-
+*{
+    margin:0;
+    box-sizing: border-box;
+}
 a{
     text-decoration:none;
     color:black;
 }
 
 nav{
-    padding: 1rem;
+    padding: 2rem;
     background-color:white;
     box-shadow:1px 3px 4px rgb(185, 184, 184);
+   
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -16,4 +20,10 @@ nav>a{
     display:flex;
     gap:0.5rem;
     
+}
+
+.books{
+    display:flex;
+    gap:6rem;
+    flex-wrap:wrap;
 }
