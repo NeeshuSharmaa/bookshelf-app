@@ -12,13 +12,14 @@ export default function DataContextProvider({ children }) {
   const toBeRead = booksData.filter(({ category }) => category === "tbr");
 
   const handleBooks = (id, category) => {
-    const updatedBooks = books.reduce(
+    const updatedBooks = booksData.reduce(
       (acc, curr) =>
         curr.id === id
           ? [...acc, { ...curr, category: category }]
           : [...acc, curr],
       []
     );
+    console.log(updatedBooks);
     setBooksData(updatedBooks);
   };
 
